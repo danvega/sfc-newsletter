@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dvega.cdfho5aezgmp.us-east-2.rds.amazonaws.com:5432/newsletter
+    username: postgres
+    password: Cl3v3land23$$
