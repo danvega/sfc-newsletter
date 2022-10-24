@@ -11,7 +11,7 @@ This application uses:
 - Spring Cloud Function AWS
 - Spring Data JDBC
 - PostgreSQL
-- 
+- Testcontainers
 
 ## Running the application
 
