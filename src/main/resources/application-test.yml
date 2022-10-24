@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:alpine:///newsletter
+  sql:
+    init:
+      mode: always

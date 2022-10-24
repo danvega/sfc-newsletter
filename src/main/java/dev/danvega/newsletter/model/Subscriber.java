@@ -1,4 +1,4 @@
-package dev.danvega.sfcnewsletter.model;
+package dev.danvega.newsletter.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
@@ -9,6 +9,11 @@ public class Subscriber {
     @Id
     private Integer id;
     private String email;
+
+    public Subscriber(Integer id, String email) {
+        this.id = id;
+        this.email = email;
+    }
 
     public Integer getId() {
         return id;
